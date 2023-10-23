@@ -1,0 +1,174 @@
+﻿html,body{
+    font: 100% 宋体, 新宋体;margin:0;padding:0;text-align: center;
+}
+
+#container {
+width: 98%; /* 这将树立一个攻下 90% 涉猎器宽度的容器 */
+height:100%
+background: #FFFFFF;
+margin: 0 auto; /* 被动边距（与宽度一路）会将页面居中 */
+border: 0px solid #000000;
+}
+#cont {
+width: 98%; /* 这将树立一个攻下 90% 涉猎器宽度的容器 */
+height:100%
+background: #FFFFFF;
+margin: 0 auto; /* 被动边距（与宽度一路）会将页面居中 */
+border: 2px solid #000000;
+font-size:28px;
+}
+
+#cont2 {
+width: 98%; /* 这将树立一个攻下 90% 涉猎器宽度的容器 */
+height:100%
+background: #FFFFFF;
+margin: 0 auto; /* 被动边距（与宽度一路）会将页面居中 */
+border: 2px solid #000000;
+font-size:24px;
+}
+
+
+#mainContent {padding: 0 10px; /* 请记取，添补是 div 方块外部的空间，边距则是 div 方块外部的空间 */}
+#cont {
+width: 98%; /* 这将树立一个攻下 90% 涉猎器宽度的容器 */
+height:100%
+background: #FFFFFF;
+margin: 0 auto; /* 被动边距（与宽度一路）会将页面居中 */
+border: 2px solid #000000;
+font-size:28px;
+}
+#cont2 {
+width: 98%; /* 这将树立一个攻下 90% 涉猎器宽度的容器 */
+height:100%
+background: #FFFFFF;
+margin: 0 auto; /* 被动边距（与宽度一路）会将页面居中 */
+border: 2px solid #000000;
+font-size:28px;
+}
+#top{
+    position: fixed;
+    right: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+    background: #ffffff;
+}
+#foot2{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #ffffff;
+}
+#foot {
+width: 100%; /* 这将树立一个攻下 100% 涉猎器宽度的容器 */
+margin: 0 auto; /* 被动边距（与宽度一路）会将页面居中 */
+text-align:  center; /* 这将覆盖 body 元素上的“text-align: center”。 */
+font-size:calc(100vw * 30 / 960);
+}
+#foot1 {
+    width: 100%; /* 这将树立一个攻下 100% 涉猎器宽度的容器 */
+    margin: 0 auto; /* 被动边距（与宽度一路）会将页面居中 */
+    text-align:  center; /* 这将覆盖 body 元素上的“text-align: center”。 */
+}
+
+.scale img{
+
+background-size:contain|cover;
+
+width:100%;
+
+    height: auto;
+
+margin :0 auto;
+
+}
+
+.div1{
+display: inline-block;
+
+}
+
+.van-field__control::-webkit-input-placeholder {
+    color: #999999;
+    text-align: center
+}
+
+.van-field__control::-moz-placeholder {
+    color: #999999;
+    text-align: center
+}
+
+.van-cell {
+    width: 80% !important;
+    margin: 10%;
+    border: 1px #EAEAEA solid;
+}
+
+.van-field__control {
+    border-bottom: 1px solid #999999;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.van-button--large {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.van-button__text {
+    font-size: 16px;
+}
+
+#max{
+  width: 90%;
+  height: 350px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 0%;
+}
+.re{
+  position: relative;
+  height: 350px;
+}
+.re ul{
+  list-style-type:none ;
+}
+.re ul>li{
+  width: 90%;
+  height: 350px;
+  position: absolute;
+
+  transition: 1s;
+  opacity: 0;
+}
+.re ul>li img{
+  width: 90%;
+  height: 350px;
+  border-radius: 2em;
+  border: 15px solid #fffbd6;
+}
+#max ol {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5,75px);
+  grid-template-rows: auto;
+  grid-gap: 1em;gap: 1em;
+  float: right;
+  margin-top: 300px;
+  list-style: none;
+  top:0;left:0;
+}
+#max ol li {
+  width: 25px;
+  height: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  float: left;
+  text-align: center;
+border-radius: 2em;
+border: 5px solid #999999;
+}
